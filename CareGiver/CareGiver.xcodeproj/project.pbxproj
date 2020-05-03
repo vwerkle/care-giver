@@ -19,18 +19,21 @@
 		1555DC5E2415A204004D4B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1555DC5D2415A204004D4B44 /* Assets.xcassets */; };
 		1555DC612415A204004D4B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1555DC5F2415A204004D4B44 /* LaunchScreen.storyboard */; };
 		1555DC692415A7CA004D4B44 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1555DC682415A7CA004D4B44 /* API.swift */; };
-		1555DC6B2415A7E9004D4B44 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1555DC6A2415A7E9004D4B44 /* awsconfiguration.json */; };
 		1555DC81241864A3004D4B44 /* Pods_CareGiver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C359D44F16BC80C2A35DBD3 /* Pods_CareGiver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1555DC8C241BEE76004D4B44 /* AppSyncCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1555DC8B241BEE75004D4B44 /* AppSyncCall.swift */; };
 		159A922B242C320400F82B9F /* BeaconSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A922A242C320400F82B9F /* BeaconSettingsViewController.swift */; };
 		159A922D242C3F9C00F82B9F /* EstimoteSDKCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A922C242C3F9C00F82B9F /* EstimoteSDKCall.swift */; };
-		159A92302432B38300F82B9F /* BeaconsTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A922F2432B38300F82B9F /* BeaconsTasksViewController.swift */; };
+		159A92302432B38300F82B9F /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A922F2432B38300F82B9F /* TasksViewController.swift */; };
 		159A92322432BCCF00F82B9F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A92312432BCCF00F82B9F /* LoginViewController.swift */; };
 		159A92342433B8A400F82B9F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A92332433B8A300F82B9F /* Constant.swift */; };
-		15A79F392458C81200C75910 /* TaskSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A79F382458C81200C75910 /* TaskSettingsViewController.swift */; };
-		15A79F3B2458CBC700C75910 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A79F3A2458CBC700C75910 /* TasksViewController.swift */; };
-		15A79F3D245A01F900C75910 /* AddBeaconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A79F3C245A01F900C75910 /* AddBeaconViewController.swift */; };
 		97A43D9B2E49CFC95A38DC43 /* Pods_CareGiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA72E64163E03D68A398696 /* Pods_CareGiver.framework */; };
+		C48AB240245A40D200A5360D /* CareGivee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AB23F245A40D200A5360D /* CareGivee.swift */; };
+		C48AB242245A414300A5360D /* CareGiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AB241245A414300A5360D /* CareGiver.swift */; };
+		C48AB244245A415800A5360D /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AB243245A415800A5360D /* Beacon.swift */; };
+		C48AB246245A416500A5360D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AB245245A416500A5360D /* Task.swift */; };
+		C48AB248245A417200A5360D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AB247245A417200A5360D /* Event.swift */; };
+		C48AB24A245B4F6C00A5360D /* Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AB249245B4F6C00A5360D /* Queries.swift */; };
+		C48AB24C245B632100A5360D /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C48AB24B245B632100A5360D /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,7 +65,6 @@
 		1555DC602415A204004D4B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1555DC622415A204004D4B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1555DC682415A7CA004D4B44 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
-		1555DC6A2415A7E9004D4B44 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		1555DC6C24186238004D4B44 /* AppSyncRealTimeClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppSyncRealTimeClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1555DC6D24186238004D4B44 /* AWSAppSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSAppSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1555DC6E24186238004D4B44 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,14 +74,18 @@
 		1555DC8B241BEE75004D4B44 /* AppSyncCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSyncCall.swift; sourceTree = "<group>"; };
 		159A922A242C320400F82B9F /* BeaconSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconSettingsViewController.swift; sourceTree = "<group>"; };
 		159A922C242C3F9C00F82B9F /* EstimoteSDKCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimoteSDKCall.swift; sourceTree = "<group>"; };
-		159A922F2432B38300F82B9F /* BeaconsTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconsTasksViewController.swift; sourceTree = "<group>"; };
+		159A922F2432B38300F82B9F /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		159A92312432BCCF00F82B9F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		159A92332433B8A300F82B9F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		15A79F382458C81200C75910 /* TaskSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSettingsViewController.swift; sourceTree = "<group>"; };
-		15A79F3A2458CBC700C75910 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
-		15A79F3C245A01F900C75910 /* AddBeaconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeaconViewController.swift; sourceTree = "<group>"; };
 		41C093DBBBF59A63CCFDDC40 /* Pods-CareGiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareGiver.debug.xcconfig"; path = "Target Support Files/Pods-CareGiver/Pods-CareGiver.debug.xcconfig"; sourceTree = "<group>"; };
 		8C359D44F16BC80C2A35DBD3 /* Pods_CareGiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareGiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48AB23F245A40D200A5360D /* CareGivee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareGivee.swift; sourceTree = "<group>"; };
+		C48AB241245A414300A5360D /* CareGiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareGiver.swift; sourceTree = "<group>"; };
+		C48AB243245A415800A5360D /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		C48AB245245A416500A5360D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C48AB247245A417200A5360D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C48AB249245B4F6C00A5360D /* Queries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queries.swift; sourceTree = "<group>"; };
+		C48AB24B245B632100A5360D /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		E6DA5FA953652EE41D7C6E3D /* Pods-CareGiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareGiver.release.xcconfig"; path = "Target Support Files/Pods-CareGiver/Pods-CareGiver.release.xcconfig"; sourceTree = "<group>"; };
 		FFA72E64163E03D68A398696 /* Pods_CareGiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareGiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,15 +116,12 @@
 			children = (
 				1555DC552415A202004D4B44 /* ViewController.swift */,
 				159A922A242C320400F82B9F /* BeaconSettingsViewController.swift */,
-				159A922F2432B38300F82B9F /* BeaconsTasksViewController.swift */,
+				159A922F2432B38300F82B9F /* TasksViewController.swift */,
 				159A92312432BCCF00F82B9F /* LoginViewController.swift */,
 				151BBD43244F79B50040FD70 /* HomeViewController.swift */,
 				151BBD45244F87BD0040FD70 /* UsersViewController.swift */,
 				151BBD48244F8B070040FD70 /* NotificationsViewController.swift */,
 				151BBD4A244F8B740040FD70 /* ProfileViewController.swift */,
-				15A79F382458C81200C75910 /* TaskSettingsViewController.swift */,
-				15A79F3A2458CBC700C75910 /* TasksViewController.swift */,
-				15A79F3C245A01F900C75910 /* AddBeaconViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -126,7 +129,7 @@
 		1555DC452415A202004D4B44 = {
 			isa = PBXGroup;
 			children = (
-				1555DC6A2415A7E9004D4B44 /* awsconfiguration.json */,
+				C48AB24B245B632100A5360D /* awsconfiguration.json */,
 				1555DC502415A202004D4B44 /* CareGiver */,
 				1555DC4F2415A202004D4B44 /* Products */,
 				08CFB8ECEB13D28F9A5467A3 /* Pods */,
@@ -158,6 +161,12 @@
 				1555DC8B241BEE75004D4B44 /* AppSyncCall.swift */,
 				159A922C242C3F9C00F82B9F /* EstimoteSDKCall.swift */,
 				159A92332433B8A300F82B9F /* Constant.swift */,
+				C48AB23F245A40D200A5360D /* CareGivee.swift */,
+				C48AB243245A415800A5360D /* Beacon.swift */,
+				C48AB245245A416500A5360D /* Task.swift */,
+				C48AB247245A417200A5360D /* Event.swift */,
+				C48AB241245A414300A5360D /* CareGiver.swift */,
+				C48AB249245B4F6C00A5360D /* Queries.swift */,
 			);
 			path = CareGiver;
 			sourceTree = "<group>";
@@ -245,7 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1555DC6B2415A7E9004D4B44 /* awsconfiguration.json in Resources */,
+				C48AB24C245B632100A5360D /* awsconfiguration.json in Resources */,
 				1555DC612415A204004D4B44 /* LaunchScreen.storyboard in Resources */,
 				1555DC5E2415A204004D4B44 /* Assets.xcassets in Resources */,
 				1555DC592415A202004D4B44 /* Main.storyboard in Resources */,
@@ -302,20 +311,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				1555DC8C241BEE76004D4B44 /* AppSyncCall.swift in Sources */,
-				159A92302432B38300F82B9F /* BeaconsTasksViewController.swift in Sources */,
+				C48AB242245A414300A5360D /* CareGiver.swift in Sources */,
+				C48AB24A245B4F6C00A5360D /* Queries.swift in Sources */,
+				159A92302432B38300F82B9F /* TasksViewController.swift in Sources */,
 				151BBD46244F87BD0040FD70 /* UsersViewController.swift in Sources */,
+				C48AB248245A417200A5360D /* Event.swift in Sources */,
 				1555DC562415A202004D4B44 /* ViewController.swift in Sources */,
+				C48AB244245A415800A5360D /* Beacon.swift in Sources */,
 				1555DC522415A202004D4B44 /* AppDelegate.swift in Sources */,
+				C48AB246245A416500A5360D /* Task.swift in Sources */,
+				C48AB240245A40D200A5360D /* CareGivee.swift in Sources */,
 				151BBD49244F8B070040FD70 /* NotificationsViewController.swift in Sources */,
 				1555DC5C2415A202004D4B44 /* CareGiver.xcdatamodeld in Sources */,
 				159A922B242C320400F82B9F /* BeaconSettingsViewController.swift in Sources */,
-				15A79F3D245A01F900C75910 /* AddBeaconViewController.swift in Sources */,
 				1555DC542415A202004D4B44 /* SceneDelegate.swift in Sources */,
 				159A922D242C3F9C00F82B9F /* EstimoteSDKCall.swift in Sources */,
 				159A92322432BCCF00F82B9F /* LoginViewController.swift in Sources */,
 				159A92342433B8A400F82B9F /* Constant.swift in Sources */,
-				15A79F3B2458CBC700C75910 /* TasksViewController.swift in Sources */,
-				15A79F392458C81200C75910 /* TaskSettingsViewController.swift in Sources */,
 				151BBD4B244F8B740040FD70 /* ProfileViewController.swift in Sources */,
 				1555DC692415A7CA004D4B44 /* API.swift in Sources */,
 				151BBD44244F79B50040FD70 /* HomeViewController.swift in Sources */,
@@ -466,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZFMT8JP8D;
 				INFOPLIST_FILE = CareGiver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZFMT8JP8D;
 				INFOPLIST_FILE = CareGiver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
